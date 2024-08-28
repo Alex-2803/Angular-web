@@ -1,0 +1,13 @@
+/* src/tailwind-custom.css */
+
+/* Order */
+@layer reset, primeng;
+
+/* Reset CSS */
+@layer reset {
+    button,
+    input {
+        /* CSS to Reset */
+        all: unset; /* Example reset */
+    }
+}

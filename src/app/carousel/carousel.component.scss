@@ -1,0 +1,23 @@
+html, body, #custom-carousel, #custom-carousel .galleria-container {
+  height: 100%; /* Ensure all parent containers allow height to be set */
+}
+#custom-carousel {
+  margin-top: 58px; /* Adds 20px of margin on top of the carousel */
+  
+}
+
+#custom-carousel .galleria-container {
+  max-width: 80% !important;
+  height: 70vh !important; /* Set to 70% of viewport height */
+  margin: 0 auto !important;
+
+}
+
+#custom-carousel .galleria-image {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  display: block !important;
+}
+
+

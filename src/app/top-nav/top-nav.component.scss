@@ -1,0 +1,18 @@
+.no-outline {
+    outline: none;
+    box-shadow: none; /* Removes box shadow that could look like an outline */
+  }
+
+  .no-outline:focus {
+    outline: none;
+    box-shadow: none; /* Ensures focus does not add any outline or shadow */
+  }
+
+  .no-outline:focus-visible {
+    outline: none; /* For browsers that use :focus-visible */
+    box-shadow: none;
+  }
+
+  nav {
+    z-index: 1000; /* High z-index to stay on top of the carousel */
+  }

@@ -1,0 +1,15 @@
+<div id="custom-carousel">
+    <p-galleria 
+      [value]="images" 
+      [numVisible]="5" 
+      [circular]="true" 
+      [showItemNavigators]="true" 
+      [showThumbnails]="false" 
+      [responsiveOptions]="responsiveOptions" 
+      [containerStyle]="{ 'max-width': '90%', 'margin': '0 auto', 'display': 'flex', 'align-items': 'center', 'height': '70vh' }">
+        <ng-template pTemplate="item" let-item>
+          <img [src]="item.itemImageSrc" style="width: 100%; height: 70%; object-fit: cover; display: block;" />
+        </ng-template>
+    </p-galleria>
+  </div>
+  

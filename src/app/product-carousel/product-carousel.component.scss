@@ -1,0 +1,53 @@
+/* Style for the p-carousel container */
+.p-carousel {
+  width: 90%; /* Matches the width of the p-galleria */
+  max-width: 1000px; /* Adjust to fit design */
+  margin: 0 auto; /* Center the carousel horizontally */
+}
+
+/* Style for the items inside the carousel */
+.p-carousel .p-carousel-item {
+  width: 100%; /* Items take full width of the carousel */
+  height: 100%; /* Items take full height of the carousel */
+  display: flex; /* Flexbox for alignment */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+/* Adjust the card inside each carousel item */
+.p-carousel .p-carousel-item .border-1 {
+  width: 100%; /* Card takes full width of the item */
+  height: 100%; /* Card takes full height of the item */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Ensure images scale properly */
+.p-carousel .p-carousel-item img {
+  width: 100%; /* Image scales to fit the item width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Style for the span containing the buttons */
+.p-carousel .p-carousel-item span {
+  display: flex;
+  gap: 0.5rem; /* Space between buttons */
+  justify-content: flex-end; /* Align buttons to the right */
+  align-items: center; /* Center buttons vertically */
+}
+
+/* Ensure buttons are visible */
+.p-carousel .p-carousel-item .p-button {
+  display: inline-flex; /* Ensure buttons are flex containers */
+  visibility: visible;
+  opacity: 1;
+ 
+}
+
+
+/* Adjust the card container */
+.card {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
